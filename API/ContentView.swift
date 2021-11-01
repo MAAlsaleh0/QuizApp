@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var VM = ViewModel()
     @State var Index = 0
-    @State var Array : [Question] = []
     var body: some View {
         ZStack {
             if Index == 12 {
